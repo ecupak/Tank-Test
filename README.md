@@ -4,7 +4,7 @@ https://www.3dgep.com/cpp-fast-track-11-tiles/
 
 # Controls
 WASD/Arrow keys to turn and move.
-+ or - to zoom in and out (3 levels).
+Zoom with + or - keys (3 levels).
 
 # Notes
 Wanted to get more comfortable using const variables and functions.
