@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="surface.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="tilemap.cpp">
+      <Filter>Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard_manager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="surface.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="tilemap.h">
+      <Filter>Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_manager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tilemap">
+      <UniqueIdentifier>{1eef82ce-1131-496b-9681-2defce6b563e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tank">
+      <UniqueIdentifier>{faa74ac3-bedc-42e5-a077-931927480fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{407d12dd-cafb-437e-961c-0b3cecb05023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{c5a11c26-c054-40ae-ab0c-665812b08155}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
