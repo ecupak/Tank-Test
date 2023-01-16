@@ -37,11 +37,10 @@ namespace Tmpl8
 	{
 		switch (tile_id)
 		{
+		// Walkable tiles.
 		case 23:
 			return true;
-		case 47:
-		case 48:
-			return false;
+		// Everything else isn't.
 		default:
 			return false;
 		}
